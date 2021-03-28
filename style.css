@@ -1,0 +1,71 @@
+html, body{
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+.header{
+  background-color:blue;
+  position:relative;
+}
+
+.inform{
+  display:block;
+  margin:0;
+  height:30px;
+}
+
+.inform ul{
+  float:right;
+  margin:0;
+  display:block;
+
+}
+
+h1{
+  color:white;
+  padding:20px;
+  padding-right:0px;
+  padding-left:0px;
+  padding-top:0px;
+  margin:0px;
+  text-align:center;
+}
+
+
+li{
+  display:inline;
+}
+
+.inform li{
+  padding:5px;
+  border-right: 1.5px solid gray;
+
+}
+.menu{
+  background-color:powderblue;
+
+}
+.menu ul{
+  display:flex;
+  padding:20px;
+  margin:0px;
+  vertical-align:text-bottom;
+  justify-content: space-between;
+  font-size:20px;
+}
+
+#subnav li{
+  display:block;
+  margin:0px;
+}
+
+#subnav ol{
+  padding:0px;
+}
+
+#subnav{
+  background-color:white;
+  border:1px solid gray;
+
+}
